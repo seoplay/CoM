@@ -1,0 +1,51 @@
+{
+  "name": "phaser3-es6-webpack4",
+  "version": "1.0.0",
+  "description": "Plain webpack 4 Boilerplate with Babel, SASS and Phaser3 on board",
+  "author": "Rafael Delboni",
+  "license": "MIT",
+  "homepage": "https://github.com/rafaeldelboni/phaser3-es6-webpack4.git",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --mode development --config webpack/config.dev.js",
+    "build": "webpack --progress --mode production --config webpack/config.build.js",
+    "lint": "eslint ./src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaeldelboni/phaser3-es6-webpack4.git"
+  },
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "mobx": "^5.6.0",
+    "phaser": "^3.12.0",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "browser-sync": "^2.24.7",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7",
+    "webpack-merge": "^4.1.4"
+  }
+}
